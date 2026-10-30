@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Website Air Bersih</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <style>
+        /* Kartu anggota kelompok */
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin: 25px 0;
+        }
+
+        .team-card {
+            background: #f4fbfa;
+            border: 1px solid #dceeed;
+            border-radius: 15px;
+            padding: 18px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .team-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px #075e6320;
+        }
+
+        .team-card img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #d4f1ed;
+            margin-bottom: 12px;
+        }
+
+        .team-card h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .team-card p {
+            font-size: 13px;
+            color: #647b83;
+            margin-bottom: 0;
+            overflow-wrap: anywhere;
+        }
+
+        @media (max-width: 900px) {
+            .team-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 450px) {
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">💧 Air Bersih</a>
+
+        <nav>
+            <a href="index.html">Beranda</a>
+            <a href="edukasi.html">Edukasi</a>
+            <a href="panduan.html">Panduan</a>
+            <a href="artikel.html">Artikel</a>
+            <a class="active" href="tentang.html">Tentang</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <p class="tag">TENTANG PROYEK</p>
+            <h1>Air Bersih untuk Semua</h1>
+            <p>
+                Website edukasi yang mengajak masyarakat lebih peduli
+                terhadap air bersih dan sanitasi layak.
+            </p>
+        </section>
+
+        <section class="content-section">
+            <article class="content-box">
+
+                <div class="about-image">
+                    <img
+                        src="images/tentang.jpg"
+                        alt="Masyarakat menjaga lingkungan dan sumber air"
+                    >
+                    <p class="image-caption">
+                        Kepedulian bersama menjaga air bersih bagi generasi mendatang.
+                    </p>
+                </div>
+
+                <h2>Tujuan Website</h2>
+                <p>
+                    Website ini dibuat untuk memberikan informasi dasar mengenai
+                    pentingnya air bersih, sanitasi, dan perlindungan sumber air.
+                    Materi disajikan agar mudah dipahami oleh masyarakat umum,
+                    khususnya pelajar dan keluarga.
+                </p>
+
+                <h2>Sasaran Pengguna</h2>
+                <p>
+                    Sasaran website ini adalah masyarakat umum, pelajar,
+                    keluarga, dan siapa pun yang ingin mempelajari cara menjaga
+                    air bersih serta lingkungan.
+                </p>
+
+                <h2>Teknologi yang Digunakan</h2>
+                <ul>
+                    <li>HTML5 untuk struktur halaman.</li>
+                    <li>CSS3 eksternal untuk desain dan tata letak.</li>
+                    <li>CSS Grid, Flexbox, dan media queries untuk responsivitas.</li>
+                </ul>
+
+                <h2>Identitas Anggota Kelompok</h2>
+                <p>
+                    Website ini dikembangkan oleh empat mahasiswa
+                    sebagai bagian dari proyek UTS Pemrograman Web.
+                </p>
+
+                <div class="team-grid">
+
+                    <div class="team-card">
+                        <img src="images/foto.IGustiLanangDarmaYasa.jpeg"
+                             alt="Foto I Gusti Lanang Darma Yasa">
+                        <h3>I Gusti Lanang Darma Yasa</h3>
+                        <p>NIM: 2515091007</p>
+                    </div>
+
+                    <div class="team-card">
+                        <img src="images/foto.PutuMahardika.jpeg"
+                             alt="Foto Putu Mahardika">
+                        <h3>Putu Mahardika</h3>
+                        <p>NIM: 2515091015</p>
+                    </div>
+
+                    <div class="team-card">
+                        <img src="images/foto.IKetutYudistiraSaputra.jpeg"
+                             alt="Foto I Ketut Yudistira Saputra">
+                        <h3>I Ketut Yudistira Saputra</h3>
+                        <p>NIM: 2515091129</p>
+                    </div>
+
+                    <div class="team-card">
+                        <img src="images/foto.CitraHermandaBrSembiring.jpeg"
+                             alt="Foto Citra Hermanda Br Sembiring">
+                        <h3>Citra Hermanda Br Sembiring</h3>
+                        <p>NIM: 2515091145</p>
+                    </div>
+
+                </div>
+
+                <h2 id="referensi">Referensi</h2>
+                <ul>
+                    <li>
+                        <a href="https://sdgs.un.org/goals/goal6"
+                           target="_blank" rel="noopener noreferrer">
+                            United Nations — Goal 6
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.who.int/news-room/fact-sheets/detail/drinking-water"
+                           target="_blank" rel="noopener noreferrer">
+                            WHO — Drinking-water
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.unicef.org/wash"
+                           target="_blank" rel="noopener noreferrer">
+                            UNICEF — Water, Sanitation and Hygiene
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://docs.github.com/en/pages"
+                           target="_blank" rel="noopener noreferrer">
+                            GitHub Docs — GitHub Pages
+                        </a>
+                    </li>
+                </ul>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>💧 Air Bersih untuk Semua · Proyek UTS Pemrograman Web</p>
+        <p>SDG 6 — Air Bersih dan Sanitasi Layak</p>
+    </footer>
+</body>
+</html>
