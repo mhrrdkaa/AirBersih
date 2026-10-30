@@ -3,10 +3,14 @@
 Mendukung Sustainable Development Goal (SDG) 6 — Air Bersih dan Sanitasi Layak
 
 ## Anggota Kelompok
-1. I Gusti Lanang Darma Yasa — 2515091007 — Pengembangan halaman Beranda dan integrasi navigasi.
-2. Putu Mahardika — 2515091015 — Pengembangan halaman Edukasi dan penyusunan informasi edukatif.
-3. I Ketut Yudistira Saputra — 2515091129 — Pengembangan halaman Panduan dan tips menjaga air bersih.
-4. Citra Hermanda Br Sembiring — 2515091145 — Pengembangan halaman Artikel dan Tentang serta dokumentasi proyek.
+1. I Gusti Lanang Darma Yasa — 2515091007
+Berperan aktif dalam pengembangan halaman Beranda, penyusunan struktur HTML dan CSS, integrasi navigasi, pengelolaan repository GitHub, serta proses revisi dan penyempurnaan website.
+2. I Putu Mahardika — 2515091015
+Berperan aktif dalam pengembangan halaman Edukasi, penyusunan materi informatif, pengaturan tampilan website, pengelolaan gambar, serta membantu proses revisi, publikasi, dan penyelesaian proyek.
+3. I Ketut Yudistira Saputra — 2515091129
+Tercatat sebagai anggota kelompok, dengan keterlibatan partisipasi mengirim foto, yang masih terbatas dalam proses pengembangan dan penyelesaian website.
+4. Citra Hermanda Br Sembiring — 2515091145
+Tercatat sebagai anggota kelompok, dengan keterlibatan partisipasi mengirim foto, yang masih terbatas dalam proses pengembangan dan penyelesaian website.
 
 ## Deskripsi Website
 Air Bersih untuk Semua merupakan website edukasi yang bertujuan meningkatkan kesadaran masyarakat mengenai pentingnya air bersih, sanitasi layak, dan perlindungan sumber air. Website ini dibuat sebagai bagian dari proyek UTS mata kuliah Pemrograman Web.
@@ -187,5 +191,3 @@ Catatan: URL GitHub Pages perlu disesuaikan dengan alamat yang muncul pada penga
 **Mata Kuliah:** Pemrograman Web  
 **Proyek:** Ujian Tengah Semester (UTS)  
 **Topik:** Website Edukasi Air Bersih dan Sanitasi Layak — SDG 6
-
-hvags
