@@ -169,8 +169,8 @@ Keterangan:
 
 ## Website dan Repository
 
-- **URL GitHub Pages:** https://lanangdarmayasa.github.io/ProjectPemWeb_Kelompok8/
-- **URL Repository GitHub:** https://github.com/lanangdarmayasa/ProjectPemWeb_Kelompok8
+- **URL GitHub Pages:** https://mhrrdkaa.github.io/AirBersih/
+- **URL Repository GitHub:** https://mhrrdkaa.github.io/AirBersih/
 
 Catatan: URL GitHub Pages perlu disesuaikan dengan alamat yang muncul pada pengaturan GitHub Pages setelah website berhasil dipublikasikan.
 
